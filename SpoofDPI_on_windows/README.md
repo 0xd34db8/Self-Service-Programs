@@ -2,6 +2,8 @@
 
 ### Install spoofdpi
 
+In cmd:
+
 ```cmd
 curl -fsSL https://raw.githubusercontent.com/xvzc/spoofdpi/main/install.sh -o install.sh
 ```
