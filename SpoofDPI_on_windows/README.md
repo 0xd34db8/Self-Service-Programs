@@ -1,6 +1,6 @@
-### Install WSL
+## Install WSL
 
-### Install spoofdpi
+## Install spoofdpi
 
 In cmd:
 
@@ -35,3 +35,9 @@ bash install.sh linux-amd64
 ```cmd
 del install.sh
 ```
+
+## Start & Stop
+
+Run the start.bat to start SpoofDPI, let the `spoofdpi terminal` stay open
+
+Run the stop.bat to stop, it can be run whenever, no matter spoofdpi is running or not
