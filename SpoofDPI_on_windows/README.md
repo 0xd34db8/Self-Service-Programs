@@ -1,11 +1,12 @@
+### Install WSL
+
+### Install spoofdpi
+
 ```cmd
 curl -fsSL https://raw.githubusercontent.com/xvzc/spoofdpi/main/install.sh -o install.sh
-
-
-
-
-
 ```
+
+Output:
 
 ```output
 Resolving latest version ...
@@ -15,14 +16,19 @@ Installing to /usr/local/bin ...
 Admin permission required to install to /usr/local/bin
 [sudo] password for ubuntu:
 ```
+Enter password and press `enter`
 
 ```output
 Successfully installed spoofdpi v1.5.3 to /usr/local/bin/spoofdpi
 ```
 
+#### Run the install.sh
+
 ```cmd
 bash install.sh linux-amd64
 ```
+
+#### delete the install.sh
 
 ```cmd
 del install.sh
