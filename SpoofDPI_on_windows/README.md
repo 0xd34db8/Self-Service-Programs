@@ -8,6 +8,12 @@ In cmd:
 curl -fsSL https://raw.githubusercontent.com/xvzc/spoofdpi/main/install.sh -o install.sh
 ```
 
+Run the install.sh:
+
+```cmd
+bash install.sh linux-amd64
+```
+
 Output:
 
 ```output
@@ -22,12 +28,6 @@ Enter password and press `enter`
 
 ```output
 Successfully installed spoofdpi v1.5.3 to /usr/local/bin/spoofdpi
-```
-
-#### Run the install.sh
-
-```cmd
-bash install.sh linux-amd64
 ```
 
 #### delete the install.sh
