@@ -1,0 +1,1 @@
+https://github.com/makipom/BlueArchive-Cursors
