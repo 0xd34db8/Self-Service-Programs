@@ -9,12 +9,11 @@ global API_URL := "https://generativelanguage.googleapis.com/v1beta/openai/chat/
 global MODEL   := "gemini-2.5-flash"
 
 ; ==============================================================================
-; HOTKEY: Ctrl + Alt + A (ONLY WORKS IN NOTION)
+; HOTKEY: Ctrl + Alt + A
 ; ==============================================================================
-#HotIf WinActive("ahk_exe Notion.exe")
 ^!a::
 {
-    ; 1. Copy selected text in Notion
+    ; 1. Copy selected text
     prevClipboard := ClipboardAll()
     A_Clipboard := ""
     Send("^c")
@@ -57,7 +56,6 @@ global MODEL   := "gemini-2.5-flash"
         ToolTip() 
     }
 }
-#HotIf ; Closes the Notion-only restriction
 
 ; ==============================================================================
 ; API HELPER FUNCTIONS
